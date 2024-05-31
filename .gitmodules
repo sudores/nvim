@@ -1,0 +1,117 @@
+[submodule "bundle/Dockerfile.vim"]
+	path = bundle/Dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/Jenkinsfile-vim-syntax"]
+	path = bundle/Jenkinsfile-vim-syntax
+	url = https://github.com/martinda/Jenkinsfile-vim-syntax.git
+[submodule "bundle/LeaderF"]
+	path = bundle/LeaderF
+	url = https://github.com/Yggdroot/LeaderF.git
+[submodule "bundle/ansible-vim"]
+	path = bundle/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim.git
+[submodule "bundle/auto-ctags.vim"]
+	path = bundle/auto-ctags.vim
+	url = https://github.com/soramugi/auto-ctags.vim.git
+[submodule "bundle/c-support"]
+	path = bundle/c-support
+	url = https://github.com/WolfgangMehner/c-support.git
+[submodule "bundle/coc.nvim"]
+	path = bundle/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/fzf.vim"]
+	path = bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:preservim/nerdtree.git
+[submodule "bundle/nerdtree-git-plugin"]
+	path = bundle/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/preservim/tagbar.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/preservim/vim-markdown.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-rainbow"]
+	path = bundle/vim-rainbow
+	url = https://github.com/frazrepo/vim-rainbow.git
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "bundle/vim-terraform-completion"]
+	path = bundle/vim-terraform-completion
+	url = https://github.com/juliosueiras/vim-terraform-completion.git
+[submodule "bundle/vim-visual-multi"]
+	path = bundle/vim-visual-multi
+	url = git@github.com:mg979/vim-visual-multi.git
+[submodule "bundle/vista.vim"]
+	path = bundle/vista.vim
+	url = https://github.com/liuchengxu/vista.vim.git
+[submodule "bundle/i3config.vim"]
+	path = bundle/i3config.vim
+	url = https://github.com/mboughaba/i3config.vim.git
+[submodule "bundle/vim-arduino"]
+	path = bundle/vim-arduino
+	url = https://github.com/stevearc/vim-arduino
+[submodule "bundle/markdown-preview.nvim"]
+	path = bundle/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
+[submodule "bundle/vim-orgmode"]
+	path = bundle/vim-orgmode
+	url = https://github.com/jceb/vim-orgmode.git
+[submodule "bundle/vim-speeddating"]
+	path = bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
+[submodule "bundle/utl.vim"]
+	path = bundle/utl.vim
+	url = https://github.com/vim-scripts/utl.vim.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-helm"]
+	path = bundle/vim-helm
+	url = https://github.com/towolf/vim-helm.git
+[submodule "bundle/vim-solidity"]
+	path = bundle/vim-solidity
+	url = https://github.com/TovarishFin/vim-solidity.git
+[submodule "bundle/lexima.vim"]
+	path = bundle/lexima.vim
+	url = https://github.com/cohama/lexima.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/nvim-lspconfig"]
+	path = bundle/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "plugin/sonokai"]
+	path = plugin/sonokai
+	url = https://github.com/sainnhe/sonokai.git

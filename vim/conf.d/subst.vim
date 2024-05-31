@@ -1,0 +1,1 @@
+nnoremap \s :%s/
