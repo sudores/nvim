@@ -20,5 +20,7 @@
   "vim-airline-themes": { "branch": "master", "commit": "a9aa25ce323b2dd04a52706f4d1b044f4feb7617" },
   "vim-devicons": { "branch": "master", "commit": "71f239af28b7214eebb60d4ea5bd040291fb7e33" },
   "vim-go": { "branch": "master", "commit": "feef9b31507f8e942bcd21f9e1f22d587c83c72d" },
-  "vim-terraform": { "branch": "master", "commit": "24de93afb05078bac6a2e966402cc1f672277708" }
+  "vim-speeddating": { "branch": "master", "commit": "5a36fd29df63ea3f65562bd2bb837be48a5ec90b" },
+  "vim-terraform": { "branch": "master", "commit": "24de93afb05078bac6a2e966402cc1f672277708" },
+  "vim-visual-multi": { "branch": "master", "commit": "b84a6d42c1c10678928b0bf8327f378c8bc8af5a" }
 }
