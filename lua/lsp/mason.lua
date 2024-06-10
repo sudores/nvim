@@ -12,6 +12,7 @@ require("mason-lspconfig").setup {
         "tsserver",
         "marksman",
         "solidity",
+        "bashls",
     },
 }
 
