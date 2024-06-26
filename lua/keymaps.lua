@@ -30,3 +30,6 @@ vim.api.nvim_set_keymap('n', 'tc', ':bdelete<CR>', { noremap = true, silent = tr
 
 -- Plugins keymaps
 vim.keymap.set("n", "<Leader>fb", ":Telescope file_browser<CR>")
+
+-- LSP Keymaps
+vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
