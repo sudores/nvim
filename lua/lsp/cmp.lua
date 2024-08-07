@@ -35,6 +35,7 @@ cmp.setup({
     { name = "luasnip" }, -- snippets
     { name = "buffer" }, -- text within the current buffer
     { name = "path" }, -- file system paths
+    { name = 'nvim_lsp_signature_help' }, -- signature help
   }),
   window = {
     completion = {
