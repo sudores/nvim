@@ -11,6 +11,10 @@ lspconfig.tsserver.setup({capabilities = capabilities})
 lspconfig.marksman.setup({capabilities = capabilities})
 lspconfig.solidity.setup({capabilities = capabilities})
 lspconfig.bashls.setup({capabilities = capabilities})
+lspconfig.templ.setup({capabilities = capabilities})
+lspconfig.html.setup({capabilities = capabilities})
+lspconfig.docker_compose_language_service.setup({capabilities = capabilities})
+lspconfig.dockerls.setup({capabilities = capabilities})
 
 --local ardu_capabilities = require('cmp_nvim_lsp').default_capabilities()
 --ardu_capabilities.textDocument.semanticTokens = vim.NIL

@@ -13,6 +13,10 @@ require("mason-lspconfig").setup {
         "marksman",
         "solidity",
         "bashls",
+        "templ",
+        "html",
+        "docker_compose_language_service",
+        "dockerls",
     },
 }
 
