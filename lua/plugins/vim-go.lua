@@ -43,8 +43,8 @@ local function check_back_space()
 end
 
 vim.g.go_template_autocreate = 1
-vim.g.go_template_file = "main_tmplt.go"
-vim.g.go_template_test_file = "main_tmplt_test.go"
+-- vim.g.go_template_file = "main_tmplt.go"
+-- vim.g.go_template_test_file = "main_tmplt_test.go"
 
 -- Set highlights and tab settings for Go files
 vim.api.nvim_create_autocmd('FileType', {
