@@ -9,7 +9,7 @@ require("mason-lspconfig").setup {
         "arduino_language_server",
         "pylsp",
         "terraformls",
-        "ts_ls",
+        "biome",
         "marksman",
         "solidity",
         "bashls",
