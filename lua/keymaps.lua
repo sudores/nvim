@@ -40,7 +40,7 @@ vim.api.nvim_set_keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", { no
 function insert_date_at_cursor()
   local row, col = unpack(vim.api.nvim_win_get_cursor(0))
   local current_line = vim.api.nvim_buf_get_lines(0, row - 1, row, false)[1]
-  local new_line = current_line:sub(1, col) .. vim.fn.strftime("%Y-%m-%d") .. current_line:sub(col + 1)
+  local new_line = current_line:sub(1, col+1) .. vim.fn.strftime("%Y-%m-%d") .. current_line:sub(col + 1)
   vim.api.nvim_buf_set_lines(0, row - 1, row, false, {new_line})
 end
 vim.api.nvim_create_user_command('InsertDateAtCursor', insert_date_at_cursor, {})
