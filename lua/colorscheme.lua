@@ -1,9 +1,8 @@
 local opt = vim.opt
 
-local completionBoxColor={bg='#000000', fg='#ffffff'}
-local completionBoxCursorColor={bg='#262626'}
 -- cursor line
-vim.cmd("colorscheme vim")
+-- vim.cmd("colorscheme vim")
+-- vim.opt.termguicolors = true
 opt.cursorline = true -- highlight the current cursor line
 vim.api.nvim_set_hl(0, 'CursorLine', {underline = false, bg='NONE'})
 
@@ -15,10 +14,16 @@ opt.termguicolors = true
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
 vim.api.nvim_set_hl(0, 'SignColumn', {bg='none'})
 
+local completionBoxColor={bg='#000000', fg='#ffffff'}
+local completionBoxCursorColor={bg='#262626'}
 -- Setting the right colors for the completion box
 vim.api.nvim_set_hl(0, 'CmpNormal',     completionBoxColor)
 vim.api.nvim_set_hl(0, 'CmpCursorLine', completionBoxCursorColor)
 
 -- Setting colors for nvim commands completion box
-vim.api.nvim_set_hl(0, 'Pmenu',      completionBoxColor)
-vim.api.nvim_set_hl(0, 'PmenuThumb', completionBoxCursorColor)
+-- vim.api.nvim_set_hl(0, 'Pmenu',      completionBoxColor)
+-- vim.api.nvim_set_hl(0, 'PmenuThumb', completionBoxCursorColor)
+-- vim.api.nvim_set_hl(0, "PmenuSel",   { fg = "#ffffff", bg = "#5f87af" })
+-- vim.api.nvim_set_hl(0, "PmenuSbar",  { bg = "#000000" })
+-- vim.api.nvim_set_hl(0, "LineNr", { fg = "#888888", bg = "#1e1e1e" })
+-- vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ffffff", bold = true })

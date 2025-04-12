@@ -15,6 +15,7 @@ lspconfig.html.setup({capabilities = capabilities})
 lspconfig.cssls.setup({capabilities = capabilities})
 lspconfig.docker_compose_language_service.setup({capabilities = capabilities})
 lspconfig.dockerls.setup({capabilities = capabilities})
+--lspconfig.zk.setup({capabilities = capabilities})
 
 --local ardu_capabilities = require('cmp_nvim_lsp').default_capabilities()
 --ardu_capabilities.textDocument.semanticTokens = vim.NIL
