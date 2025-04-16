@@ -19,3 +19,5 @@ local completionBoxCursorColor={bg='#262626'}
 -- Setting the right colors for the completion box
 vim.api.nvim_set_hl(0, 'CmpNormal',     completionBoxColor)
 vim.api.nvim_set_hl(0, 'CmpCursorLine', completionBoxCursorColor)
+vim.api.nvim_set_hl(0, 'Pmenu',      completionBoxColor)
+vim.api.nvim_set_hl(0, 'PmenuThumb', completionBoxCursorColor)
