@@ -18,6 +18,7 @@ require("mason-lspconfig").setup {
         "cssls",
         "docker_compose_language_service",
         "dockerls",
+        "pylsp",
     },
 }
 
