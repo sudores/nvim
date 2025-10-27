@@ -5,11 +5,10 @@ return {
           -- Can be "telescope", "fzf", "fzf_lua", "minipick", "snacks_picker",
           -- or select" (`vim.ui.select`). It's recommended to use "telescope",
           -- "fzf", "fzf_lua", "minipick", or "snacks_picker".
-          picker = "select",
-
+          picker = "fzf",
           lsp = {
             -- `config` is passed to `vim.lsp.start_client(config)`
-            config = {
+             config = {
               cmd = { "/home/gz/.local/bin/zk", "lsp" },
               name = "zk",
               -- on_attach = ...
