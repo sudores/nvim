@@ -15,6 +15,7 @@ vim.lsp.config("dockerls", {capabilities = capabilities})
 vim.lsp.config("pylsp", {capabilities = capabilities})
 vim.lsp.config("helm_ls", {capabilities = capabilities})
 vim.lsp.config("jsonls", {capabilities = capabilities})
+vim.lsp.config("java-language-server", {capabilities = capabilities})
 vim.lsp.config("lua_ls", {
     capabilities = capabilities,
     settings = {

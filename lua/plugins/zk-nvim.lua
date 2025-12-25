@@ -9,7 +9,7 @@ return {
           lsp = {
             -- `config` is passed to `vim.lsp.start_client(config)`
              config = {
-              cmd = { "/home/gz/.local/bin/zk", "lsp" },
+              cmd = { "zk", "lsp" },
               name = "zk",
               -- on_attach = ...
               -- etc, see `:h vim.lsp.start_client()`
