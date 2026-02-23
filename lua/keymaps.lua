@@ -27,6 +27,7 @@ vim.api.nvim_set_keymap('n', 'ta', ':enew<CR>', { noremap = true, silent = true 
 vim.api.nvim_set_keymap('n', 'tn', ':bnext<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tp', ':bprevious<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tc', ':bdelete<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'tC', ':bdelete!<CR>', { noremap = true, silent = true })
 
 -- Plugins keymaps
 vim.keymap.set("n", "<Leader>fb", ":Telescope file_browser<CR>")
