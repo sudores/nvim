@@ -48,3 +48,4 @@ function insert_date_at_cursor()
 end
 vim.api.nvim_create_user_command('InsertDateAtCursor', insert_date_at_cursor, {})
 vim.api.nvim_set_keymap("n", "gi", ":InsertDateAtCursor<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "<C-g>", "<C-o>:InsertDateAtCursor<CR>", { noremap = true, silent = true })
