@@ -42,7 +42,7 @@ function insert_date_at_cursor()
   local row, col = unpack(vim.api.nvim_win_get_cursor(0))
   local current_line = vim.api.nvim_buf_get_lines(0, row - 1, row, false)[1]
   local date_str = vim.fn.strftime("%Y-%m-%d")
-  local new_line = current_line:sub(1, col) .. date_str .. current_line:sub(col)
+  local new_line = current_line:sub(1, col+1) .. date_str .. current_line:sub(col+2)
   vim.api.nvim_buf_set_lines(0, row - 1, row, false, {new_line})
   vim.api.nvim_win_set_cursor(0, {row, col + #date_str})
 end
