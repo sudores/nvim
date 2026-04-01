@@ -22,5 +22,6 @@ require("mason-lspconfig").setup {
         "helm_ls",
         "jsonls",
         "yamlls",
+        "beancount",
     },
 }

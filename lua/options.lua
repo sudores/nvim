@@ -36,3 +36,13 @@ opt.undofile = true --  keep undo history between sessions
 --opt.undodir = "~/.vim/undo/" -- keep undo files out of file dir
 --opt.directory = "~/.vim/swp/" -- keep unsaved changes away from file dir
 --opt.backupdir = "~/.vim/backup/" -- backups also should not go to git
+
+-- beancount ft
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "beancount",
+  callback = function()
+    vim.bo.tabstop = 2
+    vim.bo.shiftwidth = 2
+    vim.bo.expandtab = true
+  end,
+})
