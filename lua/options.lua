@@ -28,7 +28,7 @@ opt.splitbelow = true -- split horizontal window to the bottom
 opt.iskeyword:append("-") -- consider string-string as whole word
 
 -- spelling
-opt.spelllang = { "en_us", "en_gb", "ru", "uk" } -- Spelling dictionaries
+opt.spelllang = { "en_us", "en_gb", "ru", "uk", "fr" } -- Spelling dictionaries
 opt.spell = true
 
 -- redundancy
