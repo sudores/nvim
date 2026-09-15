@@ -1,6 +1,4 @@
 require("mason").setup()
-require("mason-lspconfig").setup()
-
 require("mason-lspconfig").setup {
     ensure_installed = {
         "lua_ls",
@@ -23,5 +21,6 @@ require("mason-lspconfig").setup {
         "jsonls",
         "yamlls",
         "beancount",
+        "nil_ls",
     },
 }
