@@ -19,3 +19,6 @@ require("lsp.lsp")
 require("lsp.cmp")
 require("lsp.mason")
 require("colorscheme")
+
+-- Local plugin: capture a note now, file it afterwards. See lua/zk-note.
+require("zk-note").setup()
